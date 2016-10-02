@@ -6,8 +6,7 @@
     "ember-cli-test-loader": "0.2.2",
     "ember-qunit-notifications": "0.1.0",
     "ember-data": "^2.8.1",
-    "picnic": "^6.2.3",
-    "moment": "^2.15.1"
+    "picnic": "^6.2.3"
   },
   "resolutions": {
     "ember": "^2.8.1"
