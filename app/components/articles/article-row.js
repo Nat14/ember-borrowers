@@ -11,5 +11,9 @@ export default Ember.Component.extend({
         this.sendAction('save', article);
       }
     }
-  }
+  },
+  stateChanged: Ember.observer('article.state', function() {
+    var article = this.get('article');
+    console.log('OMG Expensive operation because article state changed');
+  })
 });
